@@ -8,7 +8,7 @@ import shutil
 
 load_dotenv()
 
-openai.api_key = "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"
+openai.api_key = st.secrets["API_KEY"]
 
 v1_path = r'v1.pdf'
 v2_path = r'v2.pdf'
